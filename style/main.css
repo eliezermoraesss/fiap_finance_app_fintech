@@ -4,20 +4,20 @@
     box-sizing: border-box;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 14px;
+    font-size: 20px;
 }
 
 body {
     width: 100;
     min-height: 100vh;
-    background-color: rgb(243,243,243);
+    background-color: #A16AE8;
     margin:0;
     padding: 0;
     display: flex;
     justify-content: center;
 }
 
-.fintech-wrapper {
+.container {
     display: flex;
     align-items:  center;
     justify-content: start;
@@ -25,12 +25,12 @@ body {
     height: 100vh;
 }
 
-.fintech-continue {
+.fintech-login {
     display: flex;
     align-items: center; /* horizontal */
     justify-content: space-around; /* vertical */
     flex-direction: column;
-    width: 50%;
+    width: 100%;
     min-height: 34rem;
 }
 
@@ -39,5 +39,16 @@ body {
     align-items: center;
     justify-content: center;
     width: 10%;
-    height: 10rem;
+}
+
+.fintech-logo img {
+    height: 50rem;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 10rem;
 }

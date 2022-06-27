@@ -35,9 +35,32 @@
             </div> -->
 
             <form>
+
+                <div>
+                    <label for="name">Nome:</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <br>
+
                 <div>
                     <label for="email">Email:</label>
                     <input type="email" class="form-control" id="email">
+                </div>
+                <br>
+
+                <div>
+                    <label for="genre">Gênero:</label>
+                    <select class="form-control" id="genre">
+                        <option>Masculino</option>
+                        <option>Feminino</option>
+                        <option>Outro</option>
+                    </select>
+                </div>
+                <br>
+
+                <div>
+                    <label for="birthdate">Data de nascimento:</label>
+                    <input type="date" class="form-control" id="birthdate">
                 </div>
                 <br>
 
@@ -48,18 +71,22 @@
                 <br>
 
                 <div>
+                    <label for="pwd-confirm">Confirmar senha:</label>
+                    <input type="password" class="form-control" id="pwd-confirm">
+                </div>
+                <br>
+
+                <div>
                     <label><input type="checkbox"> Lembrar</label>
                 </div>
                 <br>
 
-                <button type="submit" class="btn btn-primary">Enviar
+                <button type="submit" class="btn btn-primary">Cadastrar
                 </button>
             </form>
+            <br>
 
-            <div class="fintech-login-register">
-                <p>Não tem conta?</p>
-                <a href="register.html">Cadastre-se</a>
-            </div>
+            <a href="index.html">Já possuo uma conta</a>
         </div>
         <!-- <div>
             <footer>
